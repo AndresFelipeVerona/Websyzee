@@ -1,0 +1,26 @@
+.section-formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 60%;
+}
+
+.form-container h1 {
+    margin-right: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label, .form-container input {
+    margin: 5px 0;
+}

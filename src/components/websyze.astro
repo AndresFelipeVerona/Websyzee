@@ -1,6 +1,7 @@
 ---
 import "../styles/websyze.css";
 import { gsap } from "gsap";
+import "../components/form.astro";
 ---
 
 <div id="main-p">
@@ -23,6 +24,7 @@ import { gsap } from "gsap";
   </div>
   <div id="center">
     <div class="content">
+      <Websyze />
     </div>
   </div>
   <div id="bottom">
@@ -46,35 +48,35 @@ import { gsap } from "gsap";
     {
       top: "-50%",
     },
-    "a"
+    "a",
   )
     .to(
       "#bottom",
       {
         bottom: "-50%",
       },
-      "a"
+      "a",
     )
     .to(
       "#top-h2",
       {
         top: "60%",
       },
-      "a"
+      "a",
     )
     .to(
       "#bottom-h2",
       {
         bottom: "-30%",
       },
-      "a"
+      "a",
     )
     .to(
       "#center-h2",
       {
         top: "-30%",
       },
-      "a"
+      "a",
     )
     .to(".content", {
       delay: -0.2,
